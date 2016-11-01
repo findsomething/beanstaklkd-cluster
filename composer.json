@@ -1,0 +1,16 @@
+{
+  "name": "fsth/beanstalkd-cluster",
+  "description": "beanstalkd cluster.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FSth\\BeanstalkdCluster\\": "src/",
+      "FSth\\BeanstalkdCluster\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "psr/log": ">=1.0.0",
+    "flexihash/flexihash": "v2.0.2"
+  }
+}
