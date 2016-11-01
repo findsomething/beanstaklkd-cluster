@@ -26,8 +26,8 @@ $configs = array(
 $proxy = new \FSth\BeanstalkdCluster\Business\Proxy();
 $proxy->initWithConfig($configs);
 
-$host = $proxy->lookup('tubeName1'); // ports in ('11300');
+$host = $proxy->lookup('tubeName1'); // return array('host','port') port in ('11300');
 
-$host = $proxy->lookup('tubeName3'); // ports in ('11301', '11302');
+$host = $proxy->lookup('tubeName3'); // return array('host','port') port in ('11301', '11302');
 ```
 
